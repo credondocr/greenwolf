@@ -9,7 +9,7 @@ const Header = (props) => (
         </div>
         <div className="content">
             <div className="inner">
-                <h1>Somos GreenWolf Costa Rica</h1>
+                <h1>Somos Green Wolf Costa Rica</h1>
                 <p>Fuertes Individualmente, solidarios en la Manada.</p>
             </div>
         </div>
