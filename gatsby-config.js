@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
-    title: "GreenWolf Costa Rica",
+    title: "Green Wolf Costa Rica",
     author: "Cesar Redondo",
-    description: "A Gatsby.js V2 Starter based on Dimension by HTML5 UP"
+    description: "Fuertes Individualmente, solidarios en la Manada."
   },
   plugins: [
     'gatsby-plugin-react-helmet',

@@ -42,8 +42,8 @@ class Main extends React.Component {
           <p>Los invitamos a La Gran Marcha Nacional Por El Ambiente que se llevará a cabo este domingo 18 de agosto, a partir de las 10:00am y que saldrá desde la estatua León Cortés hasta el Museo Nacional. </p>
           <p>Costa Rica debe ser ejemplo a nivel mundial y cada ciudadano entender que esto es asunto de todos.</p>
           <p>Marcha Nacional por el Ambiente Marcha Nacional por el Ambiente</p>
-          <a href="https://www.facebook.com/events/339561596966613/" target="_blank">Link del evento de Facebook</a>
-          💚🐺🌎🇨🇷
+          <a href="https://www.facebook.com/events/339561596966613/" target="_blank">Link del evento de Facebook </a>
+           💚🐺🌎🇨🇷
           <p>
             #GreenWolfCR
             #CostaRica 
