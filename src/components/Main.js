@@ -4,7 +4,7 @@ import PropTypes from 'prop-types'
 import pic01 from '../images/pic01.jpg'
 import pic02 from '../images/pic02.jpg'
 import pic03 from '../images/pic03.jpg'
-
+import marcha from '../images/marcha.jpg'
 class Main extends React.Component {
   render() {
 
@@ -32,6 +32,28 @@ class Main extends React.Component {
           <h2 className="major">Preguntas Frecuentes</h2>
           <span className="image main"><img src={pic03} alt="" /></span>
           <p>Lorem ipsum dolor sit amet, consectetur et adipiscing elit. Praesent eleifend dignissim arcu, at eleifend sapien imperdiet ac. Aliquam erat volutpat. Praesent urna nisi, fringila lorem et vehicula lacinia quam. Integer sollicitudin mauris nec lorem luctus ultrices. Aliquam libero et malesuada fames ac ante ipsum primis in faucibus. Cras viverra ligula sit amet ex mollis mattis lorem ipsum dolor sit amet.</p>
+          {close}
+        </article>
+
+        <article id="events" className={`${this.props.article === 'events' ? 'active' : ''} ${this.props.articleTimeout ? 'timeout' : ''}`} style={{display:'none'}}>
+          <h2 className="major">Próximos Eventos</h2>
+          <span className="image main"><img src={marcha} alt="" /></span>
+          <p>Esta semana es de mucha esperanza, queremos ver la ciudad repleta de personas con ganas de transformar el mundo.</p>
+          <p>Los invitamos a La Gran Marcha Nacional Por El Ambiente que se llevará a cabo este domingo 18 de agosto, a partir de las 10:00am y que saldrá desde la estatua León Cortés hasta el Museo Nacional. </p>
+          <p>Costa Rica debe ser ejemplo a nivel mundial y cada ciudadano entender que esto es asunto de todos.</p>
+          <p>Marcha Nacional por el Ambiente Marcha Nacional por el Ambiente</p>
+          <a href="https://www.facebook.com/events/339561596966613/" target="_blank">Link del evento de Facebook</a>
+          💚🐺🌎🇨🇷
+          <p>
+            #GreenWolfCR
+            #CostaRica 
+            #MarchaNacionalPorElAmbiente2019
+            #SomosElCambio 
+            #LaManada
+          </p>
+          
+
+
           {close}
         </article>
 
