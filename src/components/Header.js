@@ -5,7 +5,7 @@ import logo from '../images/logo2.png'
 const Header = (props) => (
     <header id="header" style={props.timeout ? {display: 'none'} : {}}>
         <div className="logo">
-            <span className="icon fa-recycle" ></span>
+            <span><img src={logo} alt="" style={{width: '100%' ,marginTop: ' 1em' }}/></span>
         </div>
         <div className="content">
             <div className="inner">
