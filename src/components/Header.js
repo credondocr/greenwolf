@@ -19,7 +19,7 @@ const Header = (props) => (
                 <li style={{fontWeight: 'bold'}}><a href="javascript:;" onClick={() => {props.onOpenArticle('work')}}>Misión</a></li>
                 <li style={{fontWeight: 'bold'}}><a href="javascript:;" onClick={() => {props.onOpenArticle('about')}}>FAQ</a></li>
                 <li style={{fontWeight: 'bold'}}><a href="javascript:;" onClick={() => {props.onOpenArticle('events')}}>Eventos</a></li>
-                <li style={{fontWeight: 'bold'}}><a href="javascript:;" onClick={() => {props.onOpenArticle('sobre-mi')}}>Acerca de mi</a></li>
+                <li style={{fontWeight: 'bold'}}><a href="javascript:;" onClick={() => {props.onOpenArticle('sobre-gren-wolf')}}>Sobre Green Wolf</a></li>
                 <li style={{fontWeight: 'bold'}}><a href="javascript:;" onClick={() => {props.onOpenArticle('contact')}}>Contacto</a></li>
             </ul>
         </nav>

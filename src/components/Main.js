@@ -86,8 +86,8 @@ class Main extends React.Component {
 
           {close}
         </article>
-        <article id="sobre-mi" className={`${this.props.article === 'sobre-mi' ? 'active' : ''} ${this.props.articleTimeout ? 'timeout' : ''}`} style={{display:'none'}}>
-          <h2>¿Quien soy yo?</h2>
+        <article id="sobre-gren-wolf" className={`${this.props.article === 'sobre-mi' ? 'active' : ''} ${this.props.articleTimeout ? 'timeout' : ''}`} style={{display:'none'}}>
+          <h2>¿Que es Green Wolf?</h2>
           <span className="image main" style={{width: '75%'}}><img src={elian}/></span>
           {close}
         </article>
