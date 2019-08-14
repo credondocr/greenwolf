@@ -93,6 +93,19 @@ class Main extends React.Component {
             <li><a href="https://www.facebook.com/GreenWolfCR/" target="_blank" className="icon fa-facebook"><span className="label">Facebook</span></a></li>
             <li><a href="https://www.instagram.com/greenwolfcr" target="_blank" className="icon fa-instagram"><span className="label">Instagram</span></a></li>
           </ul>
+          <hr></hr>
+          <link href="//cdn-images.mailchimp.com/embedcode/slim-10_7.css" rel="stylesheet" type="text/css" />
+ 
+          <div id="mc_embed_signup">
+          <form action="https://gmail.us3.list-manage.com/subscribe/post?u=97510aa9c17d954f1143de434&amp;id=1dcea7fae3" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+          <div id="mc_embed_signup_scroll">
+            <label for="mce-EMAIL">Subscríbete para más información</label>
+            <input type="email" name="EMAIL" class="email" id="mce-EMAIL" placeholder="email address" required />
+              <div style={{position: 'absolute', left: '-5000px'}} aria-hidden="true"><input type="text" name="b_97510aa9c17d954f1143de434_1dcea7fae3" tabindex="-1"  /></div>
+              <div class="clear"><input type="submit" value="Subscríbete" name="subscribe" id="mc-embedded-subscribe" class="button" /></div>
+              </div>
+            </form>
+          </div>
           {close}
         </article>
 
