@@ -5,6 +5,8 @@ import pic01 from '../images/pic01.jpg'
 import pic02 from '../images/pic02.jpg'
 import pic03 from '../images/pic03.jpg'
 import marcha from '../images/marcha.jpg'
+import azul from '../images/azul.jpeg'
+import azulTransporte from '../images/azul-transporte.jpeg'
 class Main extends React.Component {
   render() {
 
@@ -51,8 +53,37 @@ class Main extends React.Component {
             #SomosElCambio 
             #LaManada
           </p>
-          
 
+          <hr/>
+          <h2>Limpieza en Playa Azul</h2>
+          <p style={{textAlign: 'center'}}>
+          <img src={azul} style={{width: '30em'}}/>
+          </p>
+          
+          <p>DOMINGO 25 DE AGOSTO</p>          
+          <p>Llegó el momento de retribuir un poco de lo mucho que los amigos de Eco Tárcoles han hecho por nosotros y otros grupos.</p>
+          <p>¿Nos acompañan a esta hermosa zona del Pacífico Central a devolverle vida y esplendor?</p>
+          <p>🔘Tendremos transporte desde San José, contactenos por mensaje para reservar y coordinar pago vía depósito.</p>
+          <h3>¿Qué llevar?</h3>
+          <ul>
+            <li>Repelente.</li>
+            <li>Bloqueador solar.</li>
+            <li>Gorra o sombrero.</li>
+            <li>Guantes reutilizables.</li>
+            <li>Botella reutilizable.</li>
+            <li>Ropa cómoda.</li>
+            <li>Zapatos cerrados.</li>
+            <li>Snack o merienda.</li>
+            <li>Gran actitud y ganas de conocer nuevos amigos. </li>
+          </ul>
+
+          <h3>Información sobre el transporte</h3>
+          <p style={{textAlign: 'center'}}>
+            <img src={azulTransporte} style={{width: '30em'}}/>
+          </p>
+          <em>Fuertes individualmente, solidarios en la Manada</em>
+          <p>Para mas información: <a href="https://chat.whatsapp.com/invite/BLkegdIBj5P7E98aiRtQQd">Aquí</a></p>
+          <p>#GreenWolfCR 💚🐺</p>
 
           {close}
         </article>
