@@ -88,7 +88,8 @@ class Main extends React.Component {
         </article>
         <article id="sobre-mi" className={`${this.props.article === 'sobre-mi' ? 'active' : ''} ${this.props.articleTimeout ? 'timeout' : ''}`} style={{display:'none'}}>
           <h2>¿Quien soy yo?</h2>
-          <span className="image main"><img src={elian}/></span>
+          <span className="image main" style={{width: '75%'}}><img src={elian}/></span>
+          {close}
         </article>
         <article id="contact" className={`${this.props.article === 'contact' ? 'active' : ''} ${this.props.articleTimeout ? 'timeout' : ''}`} style={{display:'none'}}>
           <h2 className="major">Contacto</h2>
