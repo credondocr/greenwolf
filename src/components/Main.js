@@ -18,15 +18,14 @@ class Main extends React.Component {
         <article id="intro" className={`${this.props.article === 'intro' ? 'active' : ''} ${this.props.articleTimeout ? 'timeout' : ''}`} style={{display:'none'}}>
           <h2 className="major">Visión</h2>
           <span className="image main"><img src={pic01} alt="" /></span>
-          <p>Green Wolf CR nace con la misión de contribuir en la conservación del medio ambiente a través del ejemplo, la lucha constante y solidaridad con los grupos o empresas ya existentes a nivel nacional e internacional y bajo un modelo integral que unifique distintas áreas sociales.</p>
+          <p>Queremos ser reconocidos como un movimiento incluyente de liderazgo auténtico que mejore la calidad de vida de la población de forma integral a través del humanismo, creando nuevas oportunidades económicas y sociales; todo esto en armonía con el medio ambiente.</p>
           {close}
         </article>
 
         <article id="work" className={`${this.props.article === 'work' ? 'active' : ''} ${this.props.articleTimeout ? 'timeout' : ''}`} style={{display:'none'}}>
           <h2 className="major">Misión</h2>
           <span className="image main"><img src={pic02} alt="" /></span>
-          <p>Queremos ser reconocidos como un movimiento incluyente de liderazgo auténtico que mejore la calidad de vida de la población de forma integral a través del humanismo, creando nuevas oportunidades económicas y sociales; todo esto en armonía con el medio ambiente.</p>
-          
+          <p>Green Wolf CR nace con la misión de contribuir en la conservación del medio ambiente a través del ejemplo, la lucha constante y solidaridad con los grupos o empresas ya existentes a nivel nacional e internacional y bajo un modelo integral que unifique distintas áreas sociales.</p>
           {close}
         </article>
 
