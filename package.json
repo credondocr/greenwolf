@@ -5,10 +5,12 @@
   "author": "Hunter Chang",
   "dependencies": {
     "gatsby": "^2.2.9",
+    "gatsby-plugin-google-analytics": "^2.1.7",
     "gatsby-plugin-manifest": "^2.0.24",
     "gatsby-plugin-offline": "^2.0.25",
     "gatsby-plugin-react-helmet": "^3.0.10",
     "gatsby-plugin-sass": "^2.0.11",
+    "gatsby-source-firestore": "^1.0.3",
     "node-sass": "^4.11.0",
     "react": "^16.8.5",
     "react-dom": "^16.8.5",

@@ -55,9 +55,7 @@ class Main extends React.Component {
 
           <hr/>
           <h2>Limpieza en Playa Azul</h2>
-          <p style={{textAlign: 'center'}}>
-          <img src={azul} style={{width: '30em'}}/>
-          </p>
+          <span className="image main"><img src={azul}/></span>
           
           <p>DOMINGO 25 DE AGOSTO</p>          
           <p>Llegó el momento de retribuir un poco de lo mucho que los amigos de Eco Tárcoles han hecho por nosotros y otros grupos.</p>
@@ -77,9 +75,8 @@ class Main extends React.Component {
           </ul>
 
           <h3>Información sobre el transporte</h3>
-          <p style={{textAlign: 'center'}}>
-            <img src={azulTransporte} style={{width: '30em'}}/>
-          </p>
+          <span className="image main"><img src={azulTransporte} /></span>
+ 
           <em>Fuertes individualmente, solidarios en la Manada</em>
           <p>Para mas información: <a href="https://chat.whatsapp.com/invite/BLkegdIBj5P7E98aiRtQQd">Aquí</a></p>
           <p>#GreenWolfCR 💚🐺</p>
